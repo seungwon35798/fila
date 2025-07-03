@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>FILA</title>
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/commen.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="topbanner">
+            <p class="content"><a href="">5월 연휴 기간 배송 안내</a></p>
+            <p class="btnClose"><button>탑배너 닫기</button></p>
+        </div>
+        <header id="header">
+            <h1 class="logo">
+                <a href="www.fila.co.kr">FILA</a>
+            </h1>
+            <nav class="gnb">
+                <ul class="g1">
+                    <li><a href="">WOMEN</a></li>
+                    <li><a href="">MEN</a></li>
+                    <li><a href="">KIDS</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">TENNIS</a></li>
+                    <li><a href="">BRAND</a></li>
+                    <li><a href="">UPCOMING</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <ul>
+                    <li class="location"><a href="">매장위치안내</a></li>
+                    <li class="search"><button>검색창 열기</button></li>
+                    <li class="login"><a href="">로그인 바로가기</a></li>
+                    <li class="cart">
+                        <a href="">장바구니 바로가기</a>
+                        <span class="count">0</span>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div id="container">
+            <!--S. 메인1-히어로 슬라이드-->
+            <div class="mainhero">
+                <div class="mainslides">
+                    <div class="slide">
+                        <div class="slideimg">
+                            <img src="img/main11.jpg" alt="Pink Blossom">
+                        </div>
+                        <div class="slidetext">
+                            <p class="slidetitle">Pink Blossom</p>
+                            <a href="">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainslidecontroller">
+                    <div class="mainpager">
+                        <ul>
+                            <li class="active"><button><span>1</span></button></li>
+                            <li><button><span>2</span></button></li>
+                            <li><button><span>3</span></button></li>
+                            <li><button><span>4</span></button></li>
+                            <li><button><span>5</span></button></li>
+                            <li><button><span>6</span></button></li>
+                        </ul>
+                    </div>
+                    <p class="btnprev"><button>이전으로</button></p>
+                    <p class="btnnext"><button>다음으로</button></p>
+                </div>
+            </div>
+            <!--E. 메인1-히어로 슬라이드-->
+            <!--S. 메인2-지금 많이 찾는 상품-->
+            <!--메인2와 메인6은 거의 같은 레이아웃을 가지고 있음.
+            그래서 itemLlistwrap클래스를 메인2와 메인6에 동시에 적용시켜
+            하나의 스타일로 2개의 섹션 모두를 컨트롤 하도록 만들려고 함.
+            이때 메인2에만 추가되어있는 해시태그키워드때문에 스타일이
+            달라지는 부분이 있음. 이런 영역을 처리하기위해서는 메인2만 선택할 수 있어야함.
+            그래서 메인2에 또다른 클래스를 추가함.
+            클래스값을 띄어쓰기하면 서로 다른 이름의 클래스를 동시에 적용하겠다는 의미가 됨.-->
+            <div class="itemlistwrap main2">
+                <h3 class="titletext">지금 많이 찾는 상품</h3>
+                <div class="hashtabbtn">
+                    <ul>
+                        <li><button># 에샤페</button></li>
+                        <li><button># 반팔티</button></li>
+                        <li><button># 테니스</button></li>
+                        <li><button># 플래그</button></li>
+                        <li><button># 판테라</button></li>
+                        <li><button># 쿨링</button></li>
+                        <li><button># PinkBlossom</button></li>
+                        <li><button># 데일리백</button></li>
+                        <li><button># 레플리카GTX</button></li>
+                    </ul>
+                </div>
+                <div class="itemlist">
+                    <ul>
+                        <li>
+                            <p class="like"><button>찜</button></p>
+                            <a href="">
+                                <p class="photo"><img src="img/main21.jpg" alt="휠라 에샤페 메리제인"></p>
+                                <p class="category">여성</p>
+                                <p class="name">휠라 에샤페 메리제인</p>
+                                <p class="price">99,000원</p>
+                            </a>
+                        </li>
+                        <li>
+                            <p class="like"><button>찜</button></p>
+                            <a href="">
+                                <p class="photo"><img src="img/main22.jpg" alt="휠라 에샤페 v2 실버"></p>
+                                <p class="category">공용</p>
+                                <p class="name">휠라 에샤페 v2 실버</p>
+                                <p class="price">119,000원</p>
+                            </a>
+                        </li>
+                        <li>
+                            <p class="like"><button>찜</button></p>
+                            <a href="">
+                                <p class="photo"><img src="img/main23.jpg" alt="휠라 에샤페 v2"></p>
+                                <p class="category">여성</p>
+                                <p class="name">휠라 에샤페 v2</p>
+                                <p class="price">119,000원</p>
+                            </a>
+                        </li>
+                        <li>
+                            <p class="like"><button>찜</button></p>
+                            <a href="">
+                                <p class="photo"><img src="img/main24.jpg" alt="휠라 에샤페 블라썸"></p>
+                                <p class="category">여성</p>
+                                <p class="name">휠라 에샤페 블라썸</p>
+                                <p class="price">109,000원</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--E. 메인2-지금 많이 찾는 상품-->
+            <!--E. 메인3-기획전-->
+            <div class="special">
+                <h3 class="titletext">기획전</h3>
+                <div class="speciallist">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <p class="photo"><img src="img/main31.jpg" alt="RENA X REPLICA 2002"></p>
+                                <p class="name">RENA X REPLICA 2002</p>
+                                <p class="explan">RENA의 댄스 스피릿을 표현한 단 하나의 슈즈</p>
+                                <p class="detail">자세히보기</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="photo"><img src="img/main32.jpg" alt="Varsity Club T-Shirts"></p>
+                                <p class="name">Varsity Club T-Shirts</p>
+                                <p class="explan">트렌디한 그래픽이 돋보이는 티셔츠 라인업</p>
+                                <p class="detail">자세히보기</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="photo"><img src="img/main33.jpg" alt="Tennis Shoes"></p>
+                                <p class="name">Tennis Shoes</p>
+                                <p class="explan">코트 별로 만나는 FILA TENNIS SHOES</p>
+                                <p class="detail">자세히보기</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--S. 메인3-기획전-->
+            <!--S. 메인4-추천 스타일-->
+            <div class="style">
+                <h3 class="titletext">추천스타일</h3>
+                <div class="stylelist">
+                    <ul>
+                        <li><a href=""><img src="img/main41.jpg" alt="추천 스타일1"></a></li>
+                        <li><a href=""><img src="img/main42.jpg" alt="추천 스타일2"></a></li>
+                        <li><a href=""><img src="img/main43.jpg" alt="추천 스타일3"></a></li>
+                        <li><a href=""><img src="img/main44.jpg" alt="추천 스타일4"></a></li>
+                        <li><a href=""><img src="img/main45.jpg" alt="추천 스타일5"></a></li>
+                        <li><a href=""><img src="img/main46.jpg" alt="추천 스타일6"></a></li>
+                        <li><a href=""><img src="img/main47.jpg" alt="추천 스타일7"></a></li>
+                        <li><a href=""><img src="img/main48.jpg" alt="추천 스타일8"></a></li>
+                    </ul>
+                </div>
+                <div class="btnmore"><a href="">더보기</a></div>
+            </div>
+            <!--E. 메인4-추천 스타일-->
+            <!--E. 메인5-커뮤니티-->
+            <div class="community">
+                <h3 class="titletext">커뮤니티</h3>
+                <div class="commulist">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <p class="photo"><img src="img/main51.jpg" alt="어디에나 있고, 무엇이든 있는 oats coffee"></p>
+                                <p class="category">People</p>
+                                <p class="name">어디에나 있고, 무엇이든 있는 oats coffee</p>
+                                <p class="explan">‘oats’라는 심플한 브랜드 네임의 무궁무진한 확장성과 매력</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="photo"><img src="img/main52.jpg" alt="테니스 마니아의 로망, 세계 각지의 테니스 코트"></p>
+                                <p class="category">Culture</p>
+                                <p class="name">테니스 마니아의 로망, 세계 각지의 테니스 코트</p>
+                                <p class="explan">올해 휴가지를 고민하고 있다면 주목</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="photo"><img src="img/main53.jpg" alt="나로부터 시작되는 판타지"></p>
+                                <p class="category">People</p>
+                                <p class="name">나로부터 시작되는 판타지</p>
+                                <p class="explan">판타지적이면서도 동화적인, 서수현 작가의 기묘한 상상의 세계</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="btnmore"><a href="">더보기</a></div>
+            </div>
+            <!--S. 메인5-커뮤니티-->
+            <!--E. 메인6-고객님을 위한 추천 상품-->
+            <div class="recommenditem">
+                <h3 class="titletext">고객님을 위한 추천 상품</h3>
+                <div class="recommenditemlist">
+                    <ul>
+                        <li>
+                            <p class="like"><button>찜</button></p>
+                            <a href="">
+                                <p class="photo"><img src="img/main61.jpg" alt="휠라 에샤페 크림"></p>
+                                <p class="category">남녀공용</p>
+                                <p class="name">휠라 에샤페 크림</p>
+                                <p class="price">109,000원</p>
+                            </a>
+                        </li>
+                        <li>
+                            <p class="like"><button>찜</button></p>
+                            <a href="">
+                                <p class="photo"><img src="img/main62.jpg" alt="펑키 테니스 98/25"></p>
+                                <p class="category">남녀공용</p>
+                                <p class="name">펑키 테니스 98/25</p>
+                                <p class="price">89,000원</p>
+                            </a>
+                        </li>
+                        <li>
+                            <p class="like"><button>찜</button></p>
+                            <a href="">
+                                <p class="photo"><img src="img/main63.jpg" alt="타르가 클럽 v2"></p>
+                                <p class="category">남녀공용</p>
+                                <p class="name">타르가 클럽 v2</p>
+                                <p class="price">89,000원</p>
+                            </a>
+                        </li>
+                        <li>
+                            <p class="like"><button>찜</button></p>
+                            <a href="">
+                                <p class="photo"><img src="img/main64.jpg" alt="웨이비 블록"></p>
+                                <p class="category">남녀공용</p>
+                                <p class="name">웨이비 블록</p>
+                                <p class="price">89,000원</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="btnmore"><a href="">더보기</a></div>
+            </div>
+            <!--S. 메인6-고객님을 위한 추천 상품-->
+            <!--E. 메인7-필라 인스타-->
+            <div class="insta">
+                <div class="instaln">
+                    <div class="instalogo">인스타로고</div>
+                    <div class="instaname">
+                        <p>@fila_korea</p>
+                    </div>
+                </div>
+                <div class="instapictures">
+                    <ul>
+                        <li><a href=""><img src="img/main71.jpg" alt="이미지1"></a></li>   
+                        <li><a href=""><img src="img/main72.jpg" alt="이미지2"></a></li> 
+                        <li><a href=""><img src="img/main73.jpg" alt="이미지3"></a></li> 
+                        <li><a href=""><img src="img/main74.jpg" alt="이미지4"></a></li> 
+                        <li><a href=""><img src="img/main75.jpg" alt="이미지5"></a></li> 
+                        <li><a href=""><img src="img/main76.jpg" alt="이미지6"></a></li> 
+                        <li><a href=""><img src="img/main77.jpg" alt="이미지7"></a></li> 
+                        <li><a href=""><img src="img/main78.jpg" alt="이미지8"></a></li> 
+                        <li><a href=""><img src="img/main79.jpg" alt="이미지9"></a></li> 
+                        <li><a href=""><img src="img/main710.jpg" alt="이미지10"></a></li> 
+                    </ul>
+                </div>
+            </div>
+            <!--S. 메인7-필라 인스타-->
+        </div>
+        <footer id="footer">
+            <div class="foot1">
+                <div class="left">
+                    <p class="flogo">필라</p>
+                    <div class="ir"><a href="">MISTO MEMBERSH IP</a></div>
+                </div>
+                <div class="fsns">
+                    <ul>
+                        <li class="insta"><a href="">인스타</a></li>
+                        <li class="facebook"><a href="">페이스북</a></li>
+                        <li class="youtube"><a href="">유튜브</a></li>
+                        <li class="kakao"><a href="">카카오</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="foot2">
+                <div class="left">
+                    <div class="fmenu">
+                        <ul>
+                            <li><a href="">매장안내</a></li>
+                            <li><a href="">공지사항</a></li>
+                            <li class="point"><a href="">MISTO MEMBERSHIP</a></li>
+                            <li><a href="">단체 판매</a></li>
+                            <li><a href="">대리점 개설문의</a></li>
+                            <li class="point"><a href="">MISTO 입찰 참여 안내</a></li>
+                        </ul>
+                    </div>
+                    <div class="finfo">
+                            <span>서울특별시 성북구 보문로 35 미스토코리아(주)</span>
+                            <span>대표이사 : 김지헌</span>
+                            <br>
+                            <span>사업자등록번호 : 716-81-01573  </span>
+                            <span><a href="">사업자정보확인</a></span>
+                            <span class="point">통신판매업신고 : 제 2024-서울성북-0914 호 </span>
+                            <br>
+                            <span>개인정보 보호책임자 : 이학우</span>
+                    </div>
+                    <div class="copyright">
+                        본 사이트의 상품이미지 저작권은 미스토코리아(주)에 있으며, 내용의 무단복제를 금합니다.
+                        <br>
+                        콘텐츠산업진흥법에 의한 콘텐츠보호안내
+                        <a href="">자세히 보기</a>
+                    </div>
+                    <div class="fsecuritymenu">
+                        <ul>
+                            <li><a href="">통합회원 이용약관</a></li>
+                            <li class="point"><a href="">개인정보 처리방침</a></li>
+                            <li><a href="">제보센터</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right">
+                    고객센터
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
